@@ -1,0 +1,230 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 4750 1750 0    50   ~ 0
+transition connection\n\n
+Text GLabel 7200 4650 0    50   Input ~ 0
+GND
+Text GLabel 7200 2750 0    50   Input ~ 0
+LOGIC_RETURN
+Text GLabel 7200 2650 0    50   Input ~ 0
+LOGIC_5V
+Text GLabel 7200 3850 0    50   Input ~ 0
+_BSY
+Text GLabel 7200 3950 0    50   Input ~ 0
+_ACK
+Text GLabel 7200 4050 0    50   Input ~ 0
+_MSG
+Text GLabel 7200 4150 0    50   Input ~ 0
+_SEL
+Text GLabel 7200 4250 0    50   Input ~ 0
+_C_D
+Text GLabel 7200 4350 0    50   Input ~ 0
+_REQ
+Text GLabel 7200 3750 0    50   Input ~ 0
+TERM_PWR
+Text GLabel 4250 4900 2    50   Input ~ 0
+TERM_PWR
+Text GLabel 3950 4900 0    50   Input ~ 0
+5V
+Wire Wire Line
+	3950 4900 4100 4900
+Text GLabel 3950 5250 0    50   Input ~ 0
+GND
+Text GLabel 4300 5250 2    50   Input ~ 0
+MOTOR_RETURN
+Text GLabel 7200 4450 0    50   Input ~ 0
+MOTOR_RETURN
+Text GLabel 7200 4550 0    50   Input ~ 0
+MOTOR_5V
+Text GLabel 4250 5050 2    50   Input ~ 0
+MOTOR_5V
+Wire Wire Line
+	4100 5050 4100 4900
+Connection ~ 4100 4900
+Wire Wire Line
+	4100 4900 4250 4900
+Wire Wire Line
+	4100 5050 4250 5050
+Wire Wire Line
+	4300 5250 4100 5250
+Text GLabel 4250 4750 2    50   Input ~ 0
+LOGIC_5V
+Text GLabel 4300 5350 2    50   Input ~ 0
+LOGIC_RETURN
+Wire Wire Line
+	4250 4750 4100 4750
+Wire Wire Line
+	4100 4750 4100 4900
+Wire Wire Line
+	4300 5350 4100 5350
+Wire Wire Line
+	4100 5350 4100 5250
+Connection ~ 4100 5250
+Wire Wire Line
+	4100 5250 3950 5250
+Text GLabel 7200 3650 0    50   Input ~ 0
+_DBP
+Text GLabel 7200 3550 0    50   Input ~ 0
+_DB7
+Text GLabel 7200 3450 0    50   Input ~ 0
+_DB6
+Text GLabel 7200 3350 0    50   Input ~ 0
+_DB5
+Text GLabel 7200 3250 0    50   Input ~ 0
+_DB4
+Text GLabel 7200 3150 0    50   Input ~ 0
+_DB3
+Text GLabel 7200 3050 0    50   Input ~ 0
+_DB2
+Text GLabel 7200 2950 0    50   Input ~ 0
+_DB1
+Text GLabel 7200 2850 0    50   Input ~ 0
+_DB0
+Text GLabel 7200 4750 0    50   Input ~ 0
+_ATN
+Text GLabel 7200 4850 0    50   Input ~ 0
+_RST
+Text GLabel 7200 4950 0    50   Input ~ 0
+_I_O
+Text GLabel 6350 2050 2    50   Input ~ 0
+LED
+Text GLabel 6350 1950 2    50   Input ~ 0
+ID1
+Text GLabel 5850 1950 0    50   Input ~ 0
+ID0
+Text GLabel 5850 2050 0    50   Input ~ 0
+ID2
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J3
+U 1 1 632FBE33
+P 6050 1950
+F 0 "J3" H 6100 2167 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 6100 2076 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical" H 6050 1950 50  0001 C CNN
+F 3 "~" H 6050 1950 50  0001 C CNN
+	1    6050 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x24 J4
+U 1 1 633070FC
+P 7400 3750
+F 0 "J4" H 7480 3742 50  0000 L CNN
+F 1 "Conn_01x20" H 7480 3651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x20_P2.00mm_Vertical" H 7400 3750 50  0001 C CNN
+F 3 "~" H 7400 3750 50  0001 C CNN
+	1    7400 3750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2500 2650
+Text GLabel 2500 2050 0    50   Input ~ 0
+GND
+Text GLabel 2500 2150 0    50   Input ~ 0
+GND
+Text GLabel 2500 2250 0    50   Input ~ 0
+GND
+Text GLabel 2500 2350 0    50   Input ~ 0
+GND
+Text GLabel 2500 2450 0    50   Input ~ 0
+GND
+Text GLabel 2500 2550 0    50   Input ~ 0
+GND
+Text GLabel 2500 2750 0    50   Input ~ 0
+GND
+Text GLabel 2500 2850 0    50   Input ~ 0
+GND
+Text GLabel 2500 2950 0    50   Input ~ 0
+GND
+Text GLabel 2500 3150 0    50   Input ~ 0
+GND
+Text GLabel 2500 3350 0    50   Input ~ 0
+GND
+Text GLabel 2500 3550 0    50   Input ~ 0
+GND
+Text GLabel 3000 1950 2    50   Input ~ 0
+LOGIC_RETURN
+Text GLabel 3000 1850 2    50   Input ~ 0
+LOGIC_5V
+Text GLabel 2500 1850 0    50   Input ~ 0
+LOGIC_5V
+Text GLabel 3000 3050 2    50   Input ~ 0
+_BSY
+Text GLabel 3000 3150 2    50   Input ~ 0
+_ACK
+Text GLabel 3000 3250 2    50   Input ~ 0
+_MSG
+Text GLabel 3000 3350 2    50   Input ~ 0
+_SEL
+Text GLabel 3000 3450 2    50   Input ~ 0
+_C_D
+Text GLabel 3000 3550 2    50   Input ~ 0
+_REQ
+Text GLabel 3000 2950 2    50   Input ~ 0
+TERM_PWR
+Text GLabel 3000 3650 2    50   Input ~ 0
+MOTOR_RETURN
+Text GLabel 2500 3650 0    50   Input ~ 0
+MOTOR_RETURN
+Text GLabel 2500 3750 0    50   Input ~ 0
+MOTOR_5V
+Text GLabel 2950 3750 2    50   Input ~ 0
+MOTOR_5V
+Text GLabel 2500 1950 0    50   Input ~ 0
+LOGIC_RETURN
+Text GLabel 3000 2850 2    50   Input ~ 0
+_DBP
+Text GLabel 3000 2750 2    50   Input ~ 0
+_DB7
+Text GLabel 3000 2650 2    50   Input ~ 0
+_DB6
+Text GLabel 3000 2550 2    50   Input ~ 0
+_DB5
+Text GLabel 3000 2450 2    50   Input ~ 0
+_DB4
+Text GLabel 3000 2350 2    50   Input ~ 0
+_DB3
+Text GLabel 3000 2250 2    50   Input ~ 0
+_DB2
+Text GLabel 3000 2150 2    50   Input ~ 0
+_DB1
+Text GLabel 3000 2050 2    50   Input ~ 0
+_DB0
+Text GLabel 2500 3050 0    50   Input ~ 0
+_ATN
+Text GLabel 2500 3250 0    50   Input ~ 0
+_RST
+Text GLabel 2500 3450 0    50   Input ~ 0
+_I_O
+$Comp
+L Connector_Generic:Conn_02x25_Odd_Even J1
+U 1 1 632FCD5A
+P 2700 2550
+F 0 "J1" H 2780 2542 50  0000 L CNN
+F 1 "Conn_02x25" H 2780 2451 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Vertical" H 2700 2550 50  0001 C CNN
+F 3 "~" H 2700 2550 50  0001 C CNN
+	1    2700 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 2500 1550 0    50   Input ~ 0
+ID0
+Text GLabel 2500 1650 0    50   Input ~ 0
+ID2
+Text GLabel 3000 1650 2    50   Input ~ 0
+LED
+Text GLabel 3000 1550 2    50   Input ~ 0
+ID1
+$EndSCHEMATC
