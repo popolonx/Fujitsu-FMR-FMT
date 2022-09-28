@@ -1,0 +1,2 @@
+-floppy adapter pcbs for fmr50nbx2 to convert 1.25mm 26-pin to 1mm 26-pin
+-scsi adapter pcbs for fmr40nbx2
