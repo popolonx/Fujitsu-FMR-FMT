@@ -19,7 +19,7 @@ U 1 1 62F680CE
 P 2150 2500
 F 0 "J1" H 2178 2476 50  0000 L CNN
 F 1 "Conn_01x26_Female" H 2178 2385 50  0000 L CNN
-F 2 "msx cartridge:fdd_26_pin_insert" H 2150 2500 50  0001 C CNN
+F 2 "Connector:fdd_26_pin_insert_both_sides" H 2150 2500 50  0001 C CNN
 F 3 "~" H 2150 2500 50  0001 C CNN
 	1    2150 2500
 	1    0    0    -1  

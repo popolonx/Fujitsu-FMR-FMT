@@ -30,7 +30,7 @@ U 1 1 62F6AA14
 P 3500 2550
 F 0 "J2" H 3528 2526 50  0000 L CNN
 F 1 "Conn_01x26_Female" H 3528 2435 50  0000 L CNN
-F 2 "Connector:26pin_ffc_1mm" H 3500 2550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x26_P2.54mm_Vertical" H 3500 2550 50  0001 C CNN
 F 3 "~" H 3500 2550 50  0001 C CNN
 	1    3500 2550
 	1    0    0    -1  
