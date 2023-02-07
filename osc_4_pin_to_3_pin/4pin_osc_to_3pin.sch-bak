@@ -1,0 +1,38 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L agg-kicad:CONN_01x03 J1
+U 1 1 63E2AFA9
+P 1600 3550
+F 0 "J1" V 1679 3262 50  0000 R CNN
+F 1 "CONN_01x03" V 1588 3262 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1600 3550 50  0001 C CNN
+F 3 "" H 1600 3550 50  0001 C CNN
+	1    1600 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Oscillator:CXO_DIP8 X1
+U 1 1 63E2CDF1
+P 1700 2950
+F 0 "X1" H 2044 2996 50  0000 L CNN
+F 1 "CXO_DIP8" H 2044 2905 50  0000 L CNN
+F 2 "Oscillator:Oscillator_DIP-8" H 2150 2600 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf" H 1600 2950 50  0001 C CNN
+	1    1700 2950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

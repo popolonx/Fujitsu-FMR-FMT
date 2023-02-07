@@ -1,0 +1,43 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Oscillator_CXO_DIP8
+#
+DEF Oscillator_CXO_DIP8 X 0 10 Y Y 1 F N
+F0 "X" -200 250 50 H V L CNN
+F1 "Oscillator_CXO_DIP8" 50 -250 50 H V L CNN
+F2 "Oscillator:Oscillator_DIP-8" 450 -350 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+ALIAS TFT660
+$FPLIST
+ Oscillator*DIP*8*
+$ENDFPLIST
+DRAW
+S -200 200 200 -200 0 1 10 f
+P 9 0 1 0 -75 -25 -50 -25 -50 25 -25 25 -25 -25 0 -25 0 25 25 25 25 -25 N
+X EN 1 -300 0 100 R 50 50 1 1 I
+X GND 4 0 -300 100 U 50 50 1 1 W
+X OUT 5 300 0 100 L 50 50 1 1 O
+X Vcc 8 0 300 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# agg-kicad_CONN_01x03
+#
+DEF agg-kicad_CONN_01x03 J 0 1 Y N 1 F N
+F0 "J" -50 100 50 H V L CNN
+F1 "agg-kicad_CONN_01x03" -50 -300 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 -195 -25 -205 0 1 0 F
+S 0 -95 -25 -105 0 1 0 F
+S 0 5 -25 -5 0 1 0 F
+S 0 50 -50 -250 0 1 0 f
+X 1 1 100 0 100 L 50 50 1 1 P
+X 2 2 100 -100 100 L 50 50 1 1 P
+X 3 3 100 -200 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
